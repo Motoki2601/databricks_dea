@@ -12,6 +12,37 @@ Databricks Certified Data Engineer Associate（DEA）対策用のClaude学習パ
 
 ## Claude Project構成
 
+### スマホ向けオールインワンProject
+
+スマホで出題、即時採点、弱点分析まで完結したい場合は、この構成を使います。
+
+アップロードするファイル:
+
+- `00_instructions/claude_examiner_prompt.md`
+- `00_instructions/claude_grader_prompt.md`
+- `00_instructions/category_map.md`
+- `06_question_index/question_index.md`
+- `06_question_index/weakpoint_drill_map.md`
+- `03_official_guide/databricks_dea_exam_guide.md`
+- `01_questions_ja/questions_第1回.md`
+- `01_questions_ja/questions_第2回.md`
+- `01_questions_ja/questions_第3回.md`
+- `01_questions_ja/questions_第4回.md`
+- `02_answers_ja/answers_第1回.md`
+- `02_answers_ja/answers_第2回.md`
+- `02_answers_ja/answers_第3回.md`
+- `02_answers_ja/answers_第4回.md`
+
+Claude Projectのカスタム指示には、`claude_examiner_prompt.md`の内容を入れます。
+
+使い方:
+
+- `即時採点オン`: 回答ごとにその場で採点します。
+- `即時採点オフ`: 回答中は採点せず、最後にまとめて採点します。
+- `今日の10問`: 全体から10問出します。
+- `弱点10問`: 弱点タグから横断出題します。
+- `まとめて採点`: 現在の回答ログを採点します。
+
 ### 出題用Project
 
 アップロードするファイル:
@@ -53,6 +84,9 @@ Databricks Certified Data Engineer Associate（DEA）対策用のClaude学習パ
 - `中断`
 - `再開`
 - `答え合わせ`
+- `即時採点オン`
+- `即時採点オフ`
+- `まとめて採点`
 
 ## 注意
 
