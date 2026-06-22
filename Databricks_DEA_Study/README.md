@@ -12,6 +12,7 @@
 
 - `00_instructions/claude_examiner_prompt.md`
 - `00_instructions/claude_grader_prompt.md`
+- `00_instructions/claude_mobile_all_in_one_prompt.md`
 - `00_instructions/category_map.md`
 - `06_question_index/question_index.md`
 - `06_question_index/weakpoint_drill_map.md`
@@ -25,7 +26,7 @@
 - `02_answers_ja/answers_第3回.md`
 - `02_answers_ja/answers_第4回.md`
 
-Claude Projectのカスタム指示には、`claude_examiner_prompt.md`の内容を入れます。
+Claude Projectのカスタム指示には、`claude_mobile_all_in_one_prompt.md`の内容を入れます。
 
 使い方:
 
